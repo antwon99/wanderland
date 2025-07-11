@@ -24,6 +24,7 @@ Codex Agents should:
 - Always assume **input and output are GeoJSON**
 - Never introduce unnecessary data processing pipelines
 - Keep functions **pure and auditable**
+- Make sure to document changes and update them if needed in the readme and in accompanying /docs folder.
 
 ---
 
