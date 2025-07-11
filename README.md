@@ -7,11 +7,11 @@ No realtors. No granite countertops. Just maps. This tool lets you explore land 
 
 ## What It Does (In Plain English)
 
-1. You (the dev) **gather public GeoJSON datasets**: rivers, lakes, mineral deposits, tax zones, zoning maps—whatever you can find.
+1. Uses **public GeoJSON datasets**: rivers, lakes, mineral deposits, tax zones, zoning maps—whatever you can find.
 
-2. Wanderland loads **all the GeoJSONs** and overlays them on a single interactive map of Canada.
+2. Loads **all the GeoJSONs** and overlays them on a single interactive map of Canada.
 
-3. Users apply **filters** ("show me places near water," "exclude high-tax zones," etc.).
+3. Users apply **filters** ("places near water," "exclude high-tax zones," etc.).
 
 4. The map updates in real time to display only the regions that match. That's it.
 
@@ -46,6 +46,8 @@ No ETL pipelines. No fancy AI. Just clean maps, simple filters, and transparent 
 - Download any public GeoJSON datasets relevant to land selection (hydrography, minerals, taxes, etc.).
 - Save them into `/data/geojson/`
 
+(I will be committing some, but add/remove as you please)
+
 ### 2. Run the App
 
 - The app automatically loads **all GeoJSONs** in `/data/geojson/`
@@ -61,6 +63,7 @@ No ETL pipelines. No fancy AI. Just clean maps, simple filters, and transparent 
 ## Example Filters (Human-Readable)
 
 - Near freshwater bodies
+- Specific minerals (gold, silver, etc)
 - Outside of mining claims
 - In low-tax zones
 - Inside firearm-friendly regions
@@ -86,7 +89,7 @@ wanderland/
 
 ## MVP Goal
 
--
+- A simple map of Canada with the GeoJSONs displaying and filters working
 
 ---
 
